@@ -7,13 +7,11 @@ int main()
 {
   int a;
 printf("introduce un número\n");
-scanf("%d",&a);
-printf("introduce un número\n");
 scanf("%i",&a);
 {
      if(a % 2 == 0)
      {
-         printf("El segundo número es par");
+         printf("El  número es par");
      }
      else
      {
@@ -23,3 +21,4 @@ scanf("%i",&a);
 }
   return 0;
   }
+  
