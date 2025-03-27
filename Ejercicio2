@@ -1,0 +1,25 @@
+/Jain Espinoza Diego 
+ejercicio 2
+"Programa que valida que un numero sea par o impar"/
+#include <stdio.h>
+
+int main()
+{
+  int a;
+printf("introduce un número\n");
+scanf("%d",&a);
+printf("introduce un número\n");
+scanf("%i",&a);
+{
+     if(a % 2 == 0)
+     {
+         printf("El segundo número es par");
+     }
+     else
+     {
+           printf("el número es impar");
+     }  
+
+}
+  return 0;
+  }
